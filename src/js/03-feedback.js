@@ -25,7 +25,6 @@ form.addEventListener(
       formValues.email = emailInput.value;
       formValues.message = messageTextarea.value;
       localStorage.setItem('feedback-form-state', JSON.stringify(formValues));
-      console.log(emailInput.value);
     }
   }, 500)
 );
